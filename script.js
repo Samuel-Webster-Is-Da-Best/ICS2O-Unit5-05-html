@@ -1,11 +1,11 @@
 let side = 0
 let total = 0
 
-document.getElementById("button").addEventListener("click", math)
+document.getElementById('button').addEventListener('click', math)
 
 function math () {
-  side = document.getElementById("leng").value
+  side = document.getElementById('leng').value
   total = side*side
   alert(total)
-  document.getElementById("leng").value = ''
+  document.getElementById('leng').value = ''
 }
