@@ -5,7 +5,7 @@ document.getElementById('button').addEventListener('click', math)
 
 function math () {
   side = document.getElementById('leng').value
-  total = side*side
+  total = side * side
   alert(total)
   document.getElementById('leng').value = ''
 }
